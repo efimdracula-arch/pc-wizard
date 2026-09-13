@@ -37,7 +37,12 @@
 	
 <style>
 	
-	@import url('https://cdnfonts.com');
+	@font-face {
+		font-famili: 'Web437 IBM VGA 8x16';
+		src: url('fonts/Web437_IBM_VGA_8x16.woff') format('woff');
+		font-weight: normal;
+		font-style: normal;
+	}
 	
 	* {
 		box-sizing: border-box;
@@ -56,6 +61,13 @@
 		text-align: center;
 		background-color: #0078d7;
 		overflow: hidden;
+		font-family: 'Web437 IBM VGA 8x16';
+		font-size: 16px;
+		line-height: 1.2;
+		font-smooth: never;
+		-webkit-font-smoothing: none;
+		-moz-osx-font-smoothing: grayscale;
+		image-rendering: pixelared;
 	}
 		
 		.wrapper {
@@ -81,7 +93,7 @@
 		}
 		
 		.smile {
-			font-size: clamp(100px, 13vw, 120px);
+			font-size: clamp(100px, 13vw, 120px;
 			font-weight: 200;
 		}
 		
